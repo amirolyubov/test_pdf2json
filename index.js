@@ -2,8 +2,8 @@ const pdftojson = require('pdftojson')
 const fs = require('fs')
 
 const parseRow = (text, key, cb) => cb(key === 0
-                                    ? `\n\n============${text}==============\n\n`
-                                    : text)
+                                       ? `\n\n============${text}==============\n\n`
+                                       : text)
 
 const write2file = data => fs.writeFile('./test.txt', data, err => err && console.log(err))
 
