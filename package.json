@@ -1,0 +1,16 @@
+{
+  "name": "pdf_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfreader": "^0.2.4",
+    "pdftohtmljs": "^0.4.2",
+    "pdftojson": "0.0.3"
+  }
+}
